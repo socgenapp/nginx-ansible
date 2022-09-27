@@ -1,0 +1,6 @@
+---
+- hosts: "webservers"
+  vars: 
+    - packagename: nginx
+  roles:
+  - nginx
